@@ -1,0 +1,80 @@
+<!-- Charlie Urdaz
+https://charlieu123.github.io/TitanFit-Gym/ --> 
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Customer Registration</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>TitanFit Gym</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+                <a href="items.html">Items</a>
+                <a href="customer.html">Customer Form</a>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2>Member Registration Form</h2>
+                <form>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="Enter First Name">
+
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" placeholder="Enter Last Name">
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Email Address">
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="(555) 555-5555">
+
+                    <label for="goal">Fitness Goal:</label>
+                    <input list="goals" id="goal" name="goal">
+
+                    <datalist id="goals">
+                        <option value="Weight Loss">
+                        <option value="Muscle Gain">
+                        <option value="Strength Training">
+                        <option value="General Fitness">
+                        <option value="Athletic Performance">
+                    </datalist>
+
+                    <label for="membership">Membership Type:</label>
+                    <input list="membership-options" id="membership" name="membership">
+
+                    <datalist id="membership-options">
+                        <option value="Student Membership">
+                        <option value="Monthly Membership">
+                        <option value="Premium Membership">
+                        <option value="Personal Training Package">    
+                    </datalist>
+
+                    <label for="comments">Additional Comments:</label>
+                    <input type="text" id="comments" name="comments" placeholder="Enter Comments">
+
+                    <br>
+
+                    <input type="submit" value="Register">
+
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <small>Created by Charlie Urdaz Jr.</small>
+        </footer>
+    </body>
+</html>

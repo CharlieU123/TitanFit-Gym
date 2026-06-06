@@ -1,0 +1,162 @@
+/*Charlie Urdaz*/
+
+/* Used on all pages */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+header {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+main {
+    width: 85%;
+    margin: 30px auto;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* HOME PAGE */
+.hero img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.video-section iframe {
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+/* CONTACT PAGE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+}
+
+th,
+td {
+    border: 1px solid #999;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #111827;
+    color: white;
+}
+
+iframe {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 0;
+}
+
+/* ITEMS PAGE */
+.flex-container {
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
+    background-color: #f8fafc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.column ul {
+    line-height: 2;
+    font-size: 18px;
+}
+
+/* CUSTOMER PAGE */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #111827;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1f2937;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .hero img {
+        max-width: 100%;
+        height: auto;
+    }
+}
