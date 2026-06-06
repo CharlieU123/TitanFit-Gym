@@ -56,9 +56,10 @@ footer {
 
 /* HOME PAGE */
 .hero img {
-    width: 70%;
-    max-width: 700px;
-    height: auto;
+    width: 100%;
+    max-width: 1000px;
+    height: 350px;
+    object-fit: cover;
     display: block;
     margin: 15px auto;
     border-radius: 10px;
